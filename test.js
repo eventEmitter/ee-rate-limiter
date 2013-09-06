@@ -21,7 +21,7 @@
 
 
 	var interval = setInterval( function(){
-		if ( rate.limit ) rejected++;
+		if ( rate.limit() ) rejected++;
 		else executed++;
 
 		total--;
