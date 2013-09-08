@@ -11,7 +11,7 @@
 	var rate = new RateLimiter( { rate: 100, range: 60 } );
 
 
-	if ( rate.ok ){
+	if ( rate.ok() ){
 		// ok
 
 	}
