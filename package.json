@@ -5,7 +5,8 @@
     , "homepage":       "https://github.com/eventEmitter/ee-rate-limiter"
     , "author":         "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
     , "repository": {
-        "url":          "https://github.com/eventEmitter/ee-rate-limiter"
+        "type"          : "git"
+        , "url":          "https://github.com/eventEmitter/ee-rate-limiter"
     }
     , "engines": {
         "node":         "*"
@@ -14,10 +15,10 @@
         "url":          "https://github.com/eventEmitter/ee-rate-limiter/issues"
     }
     , "dependencies": {
-          "ee-class":           "*"
-        , "ee-log":             "*"
-        , "ee-types":           "*"
-        , "ee-error":           "*"
+          "ee-class":           "0.4.x"
+        , "ee-log":             "0.2.x"
+        , "ee-types":           "0.1.x"
+        , "ee-error":           "0.1.x"
     }
     , "devDependencies": {}
     , "optionalDependencies": {}
