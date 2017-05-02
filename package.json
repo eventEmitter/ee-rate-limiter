@@ -15,9 +15,9 @@
         "url":          "https://github.com/eventEmitter/ee-rate-limiter/issues"
     }
     , "dependencies": {
-          "ee-class":           "0.4.x"
-        , "ee-log":             "0.2.x"
-        , "ee-types":           "0.1.x"
+          "ee-class":           "~1.4.0"
+        , "ee-log":             "~2.0.2"
+        , "ee-types":           "~2.1.2"
         , "ee-error":           "0.1.x"
     }
     , "devDependencies": {}
