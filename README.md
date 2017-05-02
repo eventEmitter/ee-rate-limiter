@@ -1,5 +1,7 @@
 # ee-rate limit
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/eventEmitter/ee-rate-limiter.svg)](https://greenkeeper.io/)
+
 
 ## installation
 	
